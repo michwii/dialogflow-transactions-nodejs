@@ -14,7 +14,7 @@
 // [START order_update]
 
 // Import the 'googleapis' module for authorizing the request.
-const google = require('googleapis');
+const {google} = require('googleapis');
 
 // Import the 'request' module for sending an HTTP POST request.
 const request = require('request');
